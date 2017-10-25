@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Submit Answer</title>
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <link href="{{ url_for('static', filename='css/waves.min.css') }}" rel="stylesheet" />
+
+    <link href="{{ url_for('static', filename='css/animate.min.css') }}" rel="stylesheet" />
+
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/star.css') }}" rel="stylesheet">
+    
+</head>
+
+<body style="background-color: #090A0F">
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <div style="margin-left: 35%;margin-right: 35%; margin-top: 10%; background-color: #090A0F">
+        <div class="card">
+            <div class="body">
+                <h2 class="logo" style="text-align: center; font-size: 36px">
+                    Submit Answer
+                    <p>
+                        <h3 style="text-align: center;">
+                            Question {{ question }}
+                        </h3>
+                    </p>
+                </h2>
+                
+                <form action="" id="check_answer" method="POST">
+                    <div class="input-group">
+                        <div class="form-line">
+                            <input type="text" class="form-control" name="answer" id="answer" placeholder="Answer" required autofocus>
+                        </div>
+                    </div>
+                    <button class="btn btn-block btn-lg bg-blue waves-effect" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/waves.min.js') }}"></script>
+
+</body>
+
+</html>
