@@ -12,7 +12,7 @@ __Repo for CTF'17 organized by Community of Coders, VJTI.__
 - [ ] Audio
 - [ ] Cryptograhy
 - [ ] Reverse Engineering
-- [ ] Web Security
+- [x] Web Security
 
 - [ ] Portal
 

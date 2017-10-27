@@ -1,0 +1,171 @@
+<html lang="en" class="wf-poppins-n3-active wf-poppins-n4-active wf-poppins-n5-active wf-poppins-n6-active wf-poppins-n7-active wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active wf-roboto-n6-active wf-roboto-n7-active wf-active"><head><meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+        <meta charset="utf-8">
+        
+        <title>CTF</title>
+        <meta name="description" content="Latest updates and statistic charts"> 
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       
+
+        <!--begin::Web font -->
+        <script src="js/webfont.js"></script>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto:300,400,500,600,700" media="all"><script>
+          WebFont.load({
+            google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700"]},
+            active: function() {
+                sessionStorage.fonts = true;
+            }
+          });
+        </script>
+        <!--end::Web font -->
+
+        <!--begin::Base Styles -->  
+
+        <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css">
+        <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css">
+            <!--end::Base Styles -->
+
+         
+
+<!--         <link rel="shortcut icon" href="assets/demo/default/media/img/logo/favicon.png"> 
+ -->        
+
+ <style type="text/css">
+  /**
+*Those Vars
+*/
+.form {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 10em;
+}
+
+p {
+ text-align: center;
+ color: white;
+ font-size: 1.5em;
+ padding: 0 0 20px 0;
+}
+
+.form label {
+  display: block;
+  text-align: left;
+  color: white;
+  font-size: .875em;
+}
+.form form .text-input {
+  overflow: hidden;
+  margin-bottom: .875em;
+}
+.form form input[type="text"],
+.form form input[type="password"] {
+  width: 100%;
+  padding: 1em 0 12px;
+  padding-left: 0;
+  background: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 400;
+  border: none;
+  border-bottom: 1px solid #999;
+  /*Some sibling magic happens */
+}
+.form form input[type="text"]:focus + .separator,
+.form form input[type="password"]:focus + .separator {
+  -webkit-transform: scaleX(1) translateY(-2px);
+          transform: scaleX(1) translateY(-2px);
+  opacity: 1;
+}
+.form form input[type="submit"] {
+  color: white;
+  background: #3599FF;
+  padding: 1em 1.4em;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+}
+
+.separator {
+  height: 3px;
+  width: 100%;
+  background: #68B3FF;
+  display: block;
+  -webkit-transform: scaleX(0) translateY(-2px);
+          transform: scaleX(0) translateY(-2px);
+  -webkit-transform-origin: 50%;
+          transform-origin: 50%;
+  opacity: 0;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+
+/**
+* Form Reset - remove focus highlighting
+*/
+* :focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+body {
+  font-family: Roboto;
+  background: #282F32;
+}
+body a {
+  color: #3599FF;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.form-bottom {
+  margin-top: 1.25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+</style>
+
+
+</head>
+  
+    <body class="m--skin- m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
+
+        <div style="margin: 70px 20px 10px 20px">
+          <p><b><u>TASK 1 : </u></b> Login with anyone member's Facebook Login ID and provide answer to corresponding question! <br/> LINK : <a href="/facebook-login" target="_blank">Facebook-Login</a></p>
+       <p><b><u>TASK 2 : </u></b> Find the <u>FIREBASE API KEY</u> for err_404 Hackathon :) <br/> LINK : <a href="http://www.csimhssce.in/err_404/" target="_blank">err_404 Hackathon</a></p>
+ </div>
+
+<div class="form">
+<form action="/challenges" method="post">
+  <div class="text-input">
+    <label for="answer1">Answer 1</label>
+    <input type="text" name="answer1" id="answer1" placeholder="Facebook - Login Task" />
+    <span class="separator"> </span>
+  </div>   
+  
+    <div class="text-input">
+    <label for="answer2">Answer 2</label>
+    <input type="text" name="answer2" id="answer2" placeholder="Err_404 Task" />
+    <span class="separator"> </span>
+  </div>  
+
+  <div class="form-bottom">
+    <input type="submit" id="submit" value="Submit"  />
+  </div>
+</form>  
+</div>
+
+</div>
+  
+</body></html>
