@@ -2,7 +2,7 @@ const app = require('./express');
 const sendData = require('./tally');
 const path = require('path');
 var fs = require('fs');
-var  score = 0;
+// var  score = 0;
 const base = 50;
 app.set('view engine', 'pug');
 
