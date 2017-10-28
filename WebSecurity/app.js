@@ -4,6 +4,7 @@ const path = require('path');
 var fs = require('fs');
 // var  score = 0;
 const base = 50;
+
 app.set('view engine', 'pug');
 
 
@@ -45,11 +46,6 @@ app.post('/challenges',(req,res) => {
   });
 
 });
-
-// app.get('/alohomora', function (req, res) {
-//   console.log("Alohomora : Score : " + score)
-//   res.render('alohomora.pug', { finalScore:score })
-// })
 
 app.get('/facebook-login',function(req,res){
   res.sendFile(path.join(__dirname + '/public/facebook-challenge/trouble.html'));
