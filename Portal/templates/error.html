@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>CTF 2K17</title>
+    <link rel="icon" href="{{ url_for('static', filename='icon.ico') }}" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="{{ url_for('static', filename='css/error.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Wrong Answer</h1>
+        <p> Sorry, but your answer for question {{ question }} is Wrong.</p>
+        <p> There Could be a lots of Reason Behind this </p>
+        <ul>
+            <li> You typed the answer <strong>WRONG</strong>, Thus. </li>
+            <li> You somehow solved the <strong>WRONG QUESTION</strong>, Thus. </li>
+            <li> You are a <code>All-time</code> Unlucky person, Thus. </li>
+            <li> We don't want you to <strong>WIN</strong>, Thus.</li>
+            <li> God Doesn't love you at all, Thus. </li>
+            <li> Dooms day is here, Everyone is a Liar, Thus. </li>
+        </ul>
+        <p> 'nough Said, Now <a href="javascript:window.history.back()">Go Back</a> // Or Return To <a href="/">homepage</a> </p>
+    </div>
+</body>
+
+</html>
