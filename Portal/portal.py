@@ -3,8 +3,6 @@ from flask import Flask,render_template,flash,redirect,request,abort
 app = Flask(__name__)
 app.secret_key="asdfghjkl"
 
-
-
 answer = { 	'1':'answer1',
 			'2':'answer2',
 			'3':'answer3',
