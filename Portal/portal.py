@@ -1,9 +1,6 @@
-from flask import Flask,render_template,flash,redirect,request
+from flask import Flask,render_template,flash,redirect,request,abort,send_from_directory
 
 app = Flask(__name__)
-app.secret_key="asdfghjkl"
-
-
 
 answer = { 	'1':'answer1',
 			'2':'answer2',
@@ -12,15 +9,27 @@ answer = { 	'1':'answer1',
 
 @app.route('/')
 def index():
-	return "Please Go to '(website address)/(question_number)\'"
+    return render_template("index.html")
 
-@app.route('/<question>', methods=['GET', 'POST'])
+@app.route('/download', methods=['GET', 'POST'])
+def download(): 
+    return send_from_directory(directory='static/download', filename="Questions.zip")
+
+@app.route('/<int:question>', methods=['GET', 'POST'])
 def check_answer(question):
-	if request.method == "POST":
-		if request.form.get("answer") == answer[question]:
-			return"Shout for the Volunteer"
-				
+	if str(question) in answer:
+		if request.method == "POST":
+			if request.form.get("answer").lower() == answer[str(question)].lower():
+				return render_template("success.html", question=question)
+			else:
+				return render_template("error.html", question=question)
+	else:
+		abort(404)
 	return render_template("check_answer.html",question=question)
 
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+
 if __name__ =="__main__":
-	app.run(debug=True)
+	app.run(debug=True, host="0.0.0.0", port=80)

@@ -1,0 +1,16 @@
+@font-face{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v9/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+body{
+  font-family: 'OpenSans', sans-serif;
+  color:#888;
+}
+
+.subtext{
+  font-family: 'OpenSans', sans-serif;
+  color:#888;
+}

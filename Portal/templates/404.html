@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>ERR404</title>
+    <link rel="icon" href="{{ url_for('static', filename='icon.ico') }}" type="image/x-icon">
+    <link href="{{ url_for('static', filename='css/404.css') }}" rel="stylesheet" />
+</head>
+
+<body style="background-color: #2e2e2e">
+    <div class="center" align="center">
+        <canvas height="300" width="700" id="canvas"></canvas>
+        <div class="subtext">
+            <span class="quip"></span>
+        </div>
+    </div>
+    <!-- HINT -->
+    <!-- You wish life was this easy! ;) -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/404.js') }}"></script>
+</body>
+
+</html>

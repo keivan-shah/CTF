@@ -6,14 +6,14 @@ __Repo for CTF'17 organized by Community of Coders, VJTI.__
 ### Topics
 
 - [ ] Game
-- [ ] Extension Change
-- [ ] Stegnography
+- [x] Morse Code
+- [x] Stegnography
 - [ ] Coding
-- [ ] Audio
+- [x] Audio
 - [ ] Cryptograhy
-- [ ] Reverse Engineering
+- [X] Reverse Engineering
 - [x] Web Security
 
-- [ ] Portal
+- [x] Portal
 
 (Once done add [x] to your question in the above list)
