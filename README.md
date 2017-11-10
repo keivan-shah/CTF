@@ -8,12 +8,11 @@ __Repo for CTF'17 organized by Community of Coders, VJTI.__
 - [x] Game
 - [x] Morse Code
 - [x] Stegnography
-- [X] Embedded data
+- [x] Embedded_data
 - [x] Audio
 - [x] Cryptograhy
 - [X] Reverse Engineering
 - [x] Web Security
-
 - [x] Portal
 
 (Once done add [x] to your question in the above list)
