@@ -8,7 +8,7 @@ __Repo for CTF'17 organized by Community of Coders, VJTI.__
 - [ ] Game
 - [x] Morse Code
 - [x] Stegnography
-- [ ] Coding
+- [x] Embedded_data
 - [x] Audio
 - [x] Cryptograhy
 - [X] Reverse Engineering
