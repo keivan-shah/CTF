@@ -1,0 +1,6 @@
+Ans: esrever
+
+-------------------------------------------------------
+
+After decoding Morse code we get 'REVERSE'.
+Answer is reverse of reverse i.e., esrever.

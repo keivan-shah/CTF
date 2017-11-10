@@ -6,7 +6,7 @@ __Repo for CTF'17 organized by Community of Coders, VJTI.__
 ### Topics
 
 - [ ] Game
-- [ ] Extension Change
+- [x] Morse Code
 - [x] Stegnography
 - [ ] Coding
 - [x] Audio
