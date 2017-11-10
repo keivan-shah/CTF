@@ -10,7 +10,7 @@ __Repo for CTF'17 organized by Community of Coders, VJTI.__
 - [x] Stegnography
 - [ ] Coding
 - [x] Audio
-- [ ] Cryptograhy
+- [x] Cryptograhy
 - [X] Reverse Engineering
 - [x] Web Security
 
