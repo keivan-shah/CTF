@@ -7,7 +7,7 @@ __Repo for CTF'17 organized by Community of Coders, VJTI.__
 
 - [ ] Game
 - [x] Morse Code
-- [ ] Stegnography
+- [x] Stegnography
 - [ ] Coding
 - [x] Audio
 - [ ] Cryptograhy
