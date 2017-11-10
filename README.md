@@ -5,10 +5,10 @@ __Repo for CTF'17 organized by Community of Coders, VJTI.__
 
 ### Topics
 
-- [ ] Game
+- [x] Game
 - [x] Morse Code
 - [x] Stegnography
-- [ ] Coding
+- [X] Embedded data
 - [x] Audio
 - [ ] Cryptograhy
 - [X] Reverse Engineering
