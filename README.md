@@ -9,7 +9,7 @@ __Repo for CTF'17 organized by Community of Coders, VJTI.__
 - [ ] Extension Change
 - [ ] Stegnography
 - [ ] Coding
-- [ ] Audio
+- [x] Audio
 - [ ] Cryptograhy
 - [X] Reverse Engineering
 - [x] Web Security
