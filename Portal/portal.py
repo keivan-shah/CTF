@@ -2,10 +2,14 @@ from flask import Flask,render_template,flash,redirect,request,abort,send_from_d
 
 app = Flask(__name__)
 
-answer = { 	'1':'answer1',
-			'2':'answer2',
-			'3':'answer3',
-			'4':'answer4'}
+answer = { 	'1':'none',
+			'2':'accelerate',
+			'3':'esrever',
+			'4':'paint:rules',
+            '5':'Pablo Picasso',
+            '6':'51f7fed12941cea5b15f66a92b92803b',
+            '7':'KhuljaSimSim',
+            '8':'alohomora'}
 
 @app.route('/')
 def index():
