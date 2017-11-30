@@ -1,9 +1,0 @@
-Here you are, a few steps away from the flag,
-and all you need to proceed is to crack the login details from this file.
-Submit the login details as username:password.
-
-Link to the file : http://bit.do/___
-
-Oops, the link is incomplete!!!
-Fill in the blank with 3 characters, 
-But can you write 10^9 using 3 characters??
